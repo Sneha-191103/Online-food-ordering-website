@@ -1,0 +1,123 @@
+
+table {
+    padding:20px;
+  
+    width: 100%;
+   
+    margin: 0 auto;
+    
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+ 
+  th {
+    background: #fabe46;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9634, #f4c244);  
+    background: linear-gradient(to right, #fc8e3b, #fdcb41);
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  tr:hover {
+    background-color: #e0e0e016;
+  }
+ 
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  th, td {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  }
+  .tabs {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(224, 147, 24, 0.15), 0 6px 12px 0 rgba(224, 147, 24, 0.15);
+    padding: 0.75rem;
+    border-radius: 9px;
+  }
+  
+  .tabs * {
+    z-index: 2;
+  }
+  
+  .container input[type="radio"] {
+    display: none;
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
+    font-size: .8rem;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+  }
+  
+ .container{
+    display: flex;
+  
+    justify-content: center;
+ }
+  .container input[type="radio"]:checked + label {
+    color: #030303;
+  }
+  
+  .container input[type="radio"]:checked + label > .notification {
+    background: #fabe46;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9634, #f4c244);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc8e3b, #fdcb41);
+    color: #fff;
+    margin: 0px;
+  }
+  
+  .container input[id="radio-2"]:checked ~ .glider {
+    transform: translateX(0);
+  }
+  
+  .container input[id="radio-3"]:checked ~ .glider {
+    transform: translateX(100%);
+  }
+  
+ 
+  
+  .glider {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    background: #fabe46;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9634, #f4c244);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc8e3b, #fdcb41);
+    z-index: 1;
+    border-radius: 90px;
+    transition: 0.25s ease-out;
+  }
+  
+  @media (max-width: 700px) {
+   
+    .tabs {
+      transform: scale(0.6);
+    }
+  }
+  

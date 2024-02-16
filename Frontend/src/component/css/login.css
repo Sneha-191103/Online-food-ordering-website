@@ -1,0 +1,139 @@
+
+.formbground{
+    background-color: rgb(247, 242, 242);
+    opacity: 1.0;
+    top:10%;
+    position: fixed;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 10px 30px 15px;
+    height:70%;
+    width:30%;
+    color: rgb(0, 0, 0);
+    animation: slidelogin 1.5s ease-in-out forwards;
+ 
+    
+  }
+  @keyframes slidelogin {
+    0% {
+       right: 100%;
+    }
+    100% {
+        right: 20%; 
+    }
+  }
+  .imglogin{
+    background-color: black;
+    position:fixed;
+    width:100%;
+    height:100%;
+  }
+  .form_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color:rgb(0, 0, 0);
+}
+  .heading {
+    font-size: 2em;
+    font-weight: 600;
+    color: #000000;
+    font-weight: 700;
+    margin: 5px 0 10px 0;
+    z-index: 2;
+  }
+  .link-signup{
+    background-color:transparent;
+    text-decoration: none;
+    border: #fff;
+    color: red;
+  }
+  
+  .inputContainer-login {
+    color: rgb(1, 1, 1);
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .inputIcon-login {
+    color: rgb(0, 0, 0);
+   
+  }
+  
+  .inputField-login {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 50px;
+    background-color: transparent;
+  }
+  
+  .inputField-login:focus {
+    color:rgb(0, 0, 0);
+    outline: none;
+    border-bottom: 2px solid rgb(234, 106, 27);
+  }
+  
+  .inputField-login::placeholder {
+    color: rgba(7, 7, 7, 0.778);
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .loginbutton {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0;
+    padding:10px 20px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .loginbutton:disabled {
+    pointer-events: none;
+   }
+   
+   .loginbutton:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .loginbutton:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+  
+  

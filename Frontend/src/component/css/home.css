@@ -1,0 +1,175 @@
+.hbutton {
+  display: flex;
+  align-items: center;
+    position: relative;
+    padding: 15px 45px;
+    background: #f87c23;
+    font-size: 17px;
+    font-weight: 500;
+    color: #181818;
+    border: 1px solid #ff7d20;
+    border-radius: 8px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
+  }
+  
+  .hbutton:hover {
+    border: 1px solid #f79854;
+    background: linear-gradient(85deg, #f78d41, #ff9142, #fc8530, #fa8633, #ff8d3b);
+    animation: wind 2s ease-in-out infinite;
+  }
+  
+ 
+/* Home.css */
+
+.homecontainer {
+ position:fixed;
+ width: 100%;
+ background-color: #060606;
+}
+.overlay{
+  
+ display: flex;
+ flex-direction: row;
+ padding: 50px 0px 50px 0px;
+ background-color: #070707;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fuggles&display=swap');
+
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: -100%; 
+  transform: translateY(-50%);
+  font-family: 'Fuggles', cursive;
+  font-size: 80px; 
+  color: white;
+  background-color: rgba(0, 0, 0, 0); 
+  padding: 10px 40px;
+  border-right: 6px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+.loginss{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color:white;
+  animation: slideout 1.5s ease-in-out forwards;
+ 
+ 
+}
+@keyframes slideIn {
+  0% {
+      left: -100%;
+  }
+  100% {
+      left: 15%; 
+  }
+}
+@keyframes slideout {
+  0% {
+      right: -100%;
+  }
+  100% {
+      right: 30%; 
+  }
+}
+.homebtn-conteiner {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.homebtn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: 1s;
+  border-radius: 10px;
+  
+}
+
+.homebtn-content:hover, .homebtn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  
+}
+
+.homebtn-content .home-icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.homebtn-content:hover .home-icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.home-icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.homebtn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.homebtn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.homebtn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    
+  }
+
+  100% {
+    fill: rgba(255, 255, 255, 0);
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+   
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    
+    outline-offset: 0;
+  }
+}
+  

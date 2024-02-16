@@ -1,0 +1,113 @@
+.navbar{
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  position: sticky;
+  background-color:#ffffff;
+  color: rgb(7, 7, 7); 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height:40px;
+  color: rgb(6, 6, 6);
+  box-shadow: 1px 1px 3px 1px rgba(204, 202, 202, 0.411);
+   
+}
+.overlay-head{
+  font-family: 'Fuggles', cursive;
+    font-size: 20px; 
+    background-color: rgba(0, 0, 0, 0); 
+}
+.prof:hover {
+    border: 2px solid black;
+}
+.actives{
+  background: #fabe46;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9634, #f4c244);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc8e3b, #fdcb41);
+}
+.log{
+   display: flex;
+   flex-direction: row;
+}
+.log img{
+  float: left;
+ 
+}
+.prof{
+    padding:8px 25px 8px 25px;
+   
+}
+.name{
+    font-size:30px;
+}
+.im{
+   
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+}
+.footer {
+    background-color:#000000;
+    color: rgb(255, 254, 254); 
+    padding: 10px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+  }
+.foots{
+    display: flex;
+    flex-direction: row ;
+   
+  justify-content: space-evenly;
+    font-size: 12px;
+}
+.foots .ft{
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.foot .ft{
+    padding-left: 20px;
+}
+  .foot{
+    display: flex;
+    flex-direction: row;
+   
+    font-size: 12px;
+  }
+  .footer .linked{
+    color: white;
+
+  }
+  .privacy{
+    font-size: "16px";
+    line-height: "1.5";
+    text-align: "left";
+    margin-bottom: "15px";
+    padding: 20px 20px 20px 20px;
+    margin-right: 20px;
+
+  }
+  .privacy p{
+    font-size: "16px";
+    line-height: "1.5";
+    text-align: "left";
+    margin-bottom: "15px"; 
+    text-indent: "20px"; 
+  }
+  .faq h3{
+    color: #fb6a11; 
+  }
+  .faq div{
+    padding: 10px 20px 10px 20px;
+  }
+  .faq p{
+    padding:5px 25px 15px 25px;
+  }

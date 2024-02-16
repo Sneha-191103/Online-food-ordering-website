@@ -1,0 +1,60 @@
+.dashb{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.dash-bord{
+  display: flex;
+  padding: 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+   box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.dash-box-gap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.dashboard-box{
+  background: #fabe46;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9634, #f4c244);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc8e3b, #fdcb41); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 150px;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+  }
+  .dashboard-text{
+    color: white;
+    font-family: 'Catamaran';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+.head{
+font-size: 20px;
+
+}
+.ico{
+    font-size: 25px;
+}
+.bar{
+   display: flex;
+   
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+

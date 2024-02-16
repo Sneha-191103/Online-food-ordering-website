@@ -1,0 +1,191 @@
+
+.cart-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 30.33%;
+    background: #fefefe;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  .cart-desc-card{
+    width: 300px;
+  }
+  .cart-desc-card h4{
+    color: red;
+  }
+  .cart-quantity-item{
+    padding:5px 5px;
+   
+  }
+  .action-remove{
+    color: rgb(195, 4, 4);
+    transform:scale(1);
+    transition:.3s ease-in-out;
+    font-size: 30px;
+  }
+  .card-cart{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap:100px;
+    padding: 20px 20px;
+  }
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cart-item .quantity {
+    display: flex;
+    flex-direction: row;
+  }
+  .cart-item .action-remove:hover{
+    transform: scale(1.15); 
+    cursor: pointer;   
+  }
+  
+  .cart-item .action {
+    cursor: pointer;
+  }
+  .action-minus , .action-plus{
+    transform:scale(1);
+    transition:.3s ease-in-out;
+    font-size: 30px;
+  }
+  .action-minus:hover , .action-plus:hover{
+    transform: scale(1.15); 
+    cursor: pointer;   
+   
+  }
+  .desc-food{
+    font-size: 15px;
+  }
+.cart-order-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.total{
+    padding: 10px 20px;
+    width:200px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+}
+.cart-checkout-btn{
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.cart-checkout-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* Styling for the main order container */
+.order {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Styling for the main content area */
+  .order-main {
+    display: flex;
+    flex-direction: column;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Styling for the "ORDER DETAILS" title */
+  .head-order-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the "Cart Items" title */
+  .order-item-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for individual cart items */
+  .order-items-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:20px;
+  }
+  .order-items-details .title-card{
+    font-weight: bold;
+    width:150px;
+    font-size: 18px;
+  }
+  .subtotal{
+    font-weight: bold;
+  }
+  /* Styling for the cart item elements (food name, quantity, price, total) */
+  .order-items-details div {
+    margin: 0 5px;
+  }
+  
+  /* Styling for the shadowed containers */
+  .shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the "Shipping Address", "Payment Mode", and "Order Date" sections */
+  .order-element-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the checkout button */
+  .checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+.continuebutton{
+  background-color: chocolate;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px white;
+  transform:scale(1);
+  transition:.3s ease-in-out;
+}
+.continuebutton:hover{
+  cursor: pointer;
+  transform: scale(1.15); 
+}

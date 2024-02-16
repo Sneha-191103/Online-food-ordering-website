@@ -1,0 +1,134 @@
+.hotel-menu-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly within the row */
+    gap: 20px;
+    padding: 30px 40px 30px 40px;
+}
+
+
+.foodImage-tag{
+   border-radius: 29px;
+}
+.menu-card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.cart-btn {
+    appearance: none;
+    background-color: #03600cee;
+    border: 0.255em solid #03600c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+    padding:10px 15px;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    touch-action: manipulation;
+    will-change: transform;
+    word-break: keep-all;
+   }
+   
+   .cart-btn:disabled {
+    pointer-events: none;
+   }
+   
+   .cart-btn:hover {
+    color: #fff;
+    background-color: #03600c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .cart-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+  
+  
+.menu-items-card{
+    padding:30px 30px;
+    width:390px;
+    border-radius: 29px;
+    background: #fefefe;
+    box-shadow:2px 3px 3px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.403);
+    transform:scale(1);
+    transition:.3s ease-in-out;
+}
+.div-tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:0px 20px;
+}
+
+.div-tag .hotel-name-card{
+    font-size: 70px;
+}
+.div-tag .rating-hotel{
+    float: left;
+    height: 20px;
+    width:60px;
+}
+.food-desc-card {
+   
+    overflow-wrap: break-word;
+    /* Other styles as needed */
+  }
+.menu-items-card:hover{
+    transform: scale(1.05); 
+    cursor: pointer;   
+}
+.hotel-name-card{
+    color: black;
+    font-size:30px;
+    font-style: bold;
+}
+.rating-hotel{
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width:45px;
+    font-size: 18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.price-card{
+   color: rgb(184, 11, 11);
+    font-size: 25px;
+}
+.food-item-card{
+    font-size: 20px;
+    color: black;
+}
+.menuItems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.menuItems img{
+    border-radius: 99px;
+
+}
+.menuItems div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
